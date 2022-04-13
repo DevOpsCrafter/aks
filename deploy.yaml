@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: my-service
-        image: my-company.azurecr.io/my-service:#{Build.BuildId}#
+        image: acrater.azurecr.io/aks:#{Build.BuildId}#
         ports:
         - containerPort: 8000 
         env:
