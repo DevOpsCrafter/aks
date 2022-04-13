@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: my-service
-        image: pushkar-celebal/aks:#{Build.BuildId}#
+        image: acrater.azurecr.io/pushkar-celebal/aks:#{Build.BuildId}#
         ports:
         - containerPort: 8000 
         env:
